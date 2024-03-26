@@ -17,4 +17,9 @@ TEST A DOCKER IMAGE
 FOR THE DOCKERFILE (NOT THE DEV ONE)
     docker build .
     docker run -p 8080:80 b456c08b60
-    
+
+WHEN DOCKER COMPOSE FILE IS NOT docker-compose.yml,  you will need to pass the -f for the filename, see below
+    docker-compose -f docker-compose-dev.yml up
+    docker-compose -f docker-compose-dev.yml up --build
+    docker-compose -f docker-compose-dev.yml down
+
