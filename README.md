@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Docker React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Containerized React application demonstrating secure front-end deployment.<br>
+Dockerfile and Compose setup for rapid dev/test environments.<br> 
+
+Focuses on fraud dashboards and compliance reporting interfaces.<br>
+Highlights ability to deliver portable, secure solutions for fintech clients.<br>
+<br>
 
 ## Available Scripts
 
